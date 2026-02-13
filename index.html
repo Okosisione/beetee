@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Valentine ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MUSIC FILE (put music.mp3 in this same folder) -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="card">
+    <h1>Hey My Love ❤️</h1>
+
+    <p id="typing"></p>
+
+
+    <div class="slideshow">
+      <img src="pic1.jpeg" class="slide active">
+      <img src="pic2.jpeg" class="slide">
+      <img src="pic3.jpeg" class="slide">
+      <img src="pic4.jpeg" class="slide">
+    </div>
+
+
+    <div class="buttons">
+      <button onclick="sayYes()">Yes 💕</button>
+      <button onclick="sayNo()">No 🙈</button>
+    </div>
+
+    <button class="music-btn" onclick="playMusic()">🎵 Play Music</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
